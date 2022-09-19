@@ -57,27 +57,32 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-my_list4 = luckyNumbers + friends
-print(my_list4)
+newList2 = luckyNumbers + friends
+print(newList2)
 
 ###### print the new list out
-# print(newList2)
+print(newList2)
 ###### print out the first item in the list
-
+print(newList2[0])
 ###### remove the last item of the new list
-
+newList2.pop()
 ###### print the new list out without the last item
-
+print(newList2)
 ###### add three more items to the end of the list
-
+newList2.append("lord gib")
+newList2.append("chief keef")
+newList2.append("carti")
+print(newList2)
 ###### print the last item in the new list
-
+print(newList2[-1])
+    # using -1 to print out last item is faster
 ###### sort the list
-
+newList2.sort(key = str)
+print(newList2)
 ###### find a way to insert a new item at the 3rd position of the list
-
+newList2.insert(4, "angle")
 ###### print the new list out
-
+print(newList2)
 ##### reverse the list
 
 ###### print the new list out
