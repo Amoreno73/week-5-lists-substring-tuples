@@ -29,6 +29,13 @@ print(my_list)
 my_list.insert(3, "bobba bobba")
 print(my_list)
 
+new_list = ["angel","computers", 67, 2, 37, "dell"]
+print(new_list)
+# join my_list and new_list
+# store result in my_list3
+my_list3 = my_list + new_list
+print(my_list3)
+
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
