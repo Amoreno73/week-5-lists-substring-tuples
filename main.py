@@ -84,8 +84,9 @@ newList2.insert(4, "angle")
 ###### print the new list out
 print(newList2)
 ##### reverse the list
-
+newList2.reverse()
 ###### print the new list out
+print(newList2)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
