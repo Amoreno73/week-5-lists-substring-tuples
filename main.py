@@ -41,7 +41,7 @@ print(my_list3)
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
 # transportation_means.append("motorcycle")
-# #append adds an element to the end
+# append adds an element to the end
 # print(transportation_means)
 # transportation_means.remove("car")
 # print(transportation_means)
@@ -57,6 +57,8 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
+my_list4 = luckyNumbers + friends
+print(my_list4)
 
 ###### print the new list out
 # print(newList2)
